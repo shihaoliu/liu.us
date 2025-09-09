@@ -4,7 +4,7 @@ title: CVPR Symbolic Representation
 nav: false
 nav_order: 100
 permalink: /r/cvpr
-redirect: https://joseph.liu.us/assets/pdf/2025-0226-CVPR-Symbolic-Generation.pdf
+redirect: https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Symbolic_Representation_for_Any-to-Any_Generative_Tasks_CVPR_2025_paper.html
 sitemap: false
 ---
 

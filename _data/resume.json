@@ -3,7 +3,7 @@
     "name": "Joseph Liu",
     "label": "",
     "image": "",
-    "email": "joseph@liu.us",
+    "email": "josephl4@cs.cmu.edu",
     "phone": "+1 (650) 276-8035",
     "url": "https://joseph.liu.us/",
     "summary": "",
@@ -17,14 +17,25 @@
   },
   "education": [
     {
+      "institution": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "url": "https://www.cmu.edu",
+      "area": "Master of Science in Machine Learning (<b>GPA</b>: NA/4.0)",
+      "studyType": "",
+      "startDate": "2025-08-25",
+      "endDate": "2026-12-25",
+      "score": "4.0",
+      "courses": ["Probability and Mathematical Statistics", "Advanced Introduction to Machine Learning", "Independent Study: Research"]
+    },
+    {
       "institution": "University of Southern Californa(USC)",
       "location": "Los Angeles, CA",
       "url": "https://www.usc.edu",
-      "area": "Bachelor of Science in Computer Science (<b>GPA</b>: 4.0/4.0)",
+      "area": "Bachelor of Science in Computer Science (<b>GPA</b>: 3.98/4.0)",
       "studyType": "",
       "startDate": "2022-08-15",
       "endDate": "2025-05-15",
-      "score": "4.0",
+      "score": "3.98",
       "courses": ["Artificial Intelligence", "Machine Learning", "LLMs in Natural Language Processing", "Foundations of Multi-Agent Systems", "Probablity", "Statistical Inference and Data Analysis", "Discrete Math", "Operating Systems", "Computer Systems"]
     },
     {
@@ -97,23 +108,33 @@
   ],
   "research": [
     {
-      "name": "IDM Lab, USC",
-      "position": "Learning Heuristics for Multi-Agent Pathfinding",
-      "location": "Los Angeles, CA",
-      "startDate": "2024-05-15",
+      "name": "NeuLab, CMU",
+      "position": "Fine-tuning Long Context Multimodal Models for General Tasks",
+      "location": "Pittsburgh, PA",
+      "startDate": "2025-06-11",
       "endDate": "",
-      "summary": "Mentored by Yimin Tang, advised by <a href='https://ics.uci.edu/~svenk/'>Prof. Sven Koenig</a>",
-      "highlights": ["<b>Trainable Heuristic Environment</b>: Developed an RL environment to train heuristics for multi-robot path planning, leveraging 4D representations to capture spatial-temporal relationships between robot paths and environmental constraints.", "<b>Two-Phase Training Strategy</b>: Crafted a two-phase training strategy, initially replicating traditional heuristics and subsequently enhancing search efficiency with a node expansion reward system.", "<b>Search Efficiency Assessment Tool</b>: Implementing a quantitative evaluation system based on node expansion metrics, enabling direct measurement of search efficiency improvements for the learned heuristic function."]
+      "url": "https://www.cs.cmu.edu/~neulab/",
+      "summary": "Advised by <a href='https://www.phontron.com/'>Prof. Graham Neubig</a>",
+      "highlights": ["Multimodal general-purpose agents present a unique challenge for large language model fine-tuning as they regularly generate long interaction trajectories (128K+ tokens) through combinations of HTML, screenshots, and action sequences. While recent advances have pushed context windows beyond these lengths, our understanding of how models learn and perform on long multi-modal sequences remains limited. Although models may not require the full context for every task, fundamental questions persist about how models prioritize relevant segments, how data influences performance on widely varying tasks, and whether visual modalities help or hinder learning at these scales. Understanding these dynamics is crucial for advancing both theoretical knowledge of transformer limits and practical applications requiring long-horizon reasoning. This project investigates these core machine learning challenges using agent trajectories as a particularly demanding testbed."]
     },
     {
       "name": "Data, Interpretability, Language, and Learning (DILL) Lab, USC",
       "position": "LLM-based Text Simplification Evaluation System",
       "location": "Los Angeles, CA",
       "startDate": "2024-01-15",
-      "endDate": "",
+      "endDate": "2025-08-15",
       "url": "https://joseph.liu.us/r/text",
       "summary": "Mentored by Xinyue Cui and Yoonsoo Nam, advised by <a href='https://swabhs.com/'>Prof. Swabha Swayamdipta</a>",
       "highlights": ["<b>Text Simplification Metrics</b>: Designed a novel reference-free metric for text simplification by introducing LLM judges, eliminating the need for specialized training data.", "<b>Model Architecture Design</b>: Developed an efficient evaluation framework utilizing pre-trained models such as Llama 3 without fine-tuning, enabling broad domain coverage and robust simplification assessment.", "<b>Evaluation</b>: Demonstrated superior performance in evaluating simplifications, achieving a correlation of 0.54 with human judgment and outperforming traditional metrics, such as FKGL and SARI, and trained metrics such as LENS."]
+    },
+    {
+      "name": "IDM Lab, USC",
+      "position": "Learning Heuristics for Multi-Agent Pathfinding",
+      "location": "Los Angeles, CA",
+      "startDate": "2024-05-15",
+      "endDate": "2025-05-15",
+      "summary": "Mentored by Yimin Tang, advised by <a href='https://ics.uci.edu/~svenk/'>Prof. Sven Koenig</a>",
+      "highlights": ["<b>Trainable Heuristic Environment</b>: Developed an RL environment to train heuristics for multi-robot path planning, leveraging 4D representations to capture spatial-temporal relationships between robot paths and environmental constraints.", "<b>Two-Phase Training Strategy</b>: Crafted a two-phase training strategy, initially replicating traditional heuristics and subsequently enhancing search efficiency with a node expansion reward system.", "<b>Search Efficiency Assessment Tool</b>: Implementing a quantitative evaluation system based on node expansion metrics, enabling direct measurement of search efficiency improvements for the learned heuristic function."]
     },
     {
       "position": "Symbolic Representation for Any-to-Any Generative Tasks",
